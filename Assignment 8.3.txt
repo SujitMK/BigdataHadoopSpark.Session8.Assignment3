@@ -3,8 +3,6 @@
 
 							Transaction in hive
 
-
-
 hive> set hive.support.concurrency = true;
 hive> set hive.enforce.bucketing = true;
 hive> set hive.exec.dynamic.partition.mode = nonstrict;
