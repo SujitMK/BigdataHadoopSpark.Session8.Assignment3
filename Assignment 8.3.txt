@@ -1,12 +1,7 @@
+							Assignment 8.3
 
 
-
-
-
-								Assignment 8.3
-
-
-								Transaction in hive
+							Transaction in hive
 
 
 
@@ -17,6 +12,7 @@ hive> set hive.txn.manager = org.apache.hadoop.hive.ql.lockmgr.DbTxnManager;
 hive> set hive.compactor.initiator.on = true;
 hive> set hive.compactor.worker.threads = 5;
 
+hive> use default;
 OK
 Time taken: 1.068 seconds
 
